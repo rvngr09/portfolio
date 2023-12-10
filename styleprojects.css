@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins' , 'sans-serif';
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+
+}
+body{
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+.main{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 900;
+    color: white;
+    margin-right: 470px;
+    padding-left: 110px;
+    transition: 0.7s;
+}
+.header{
+    position: fixed;
+    align-items: center;
+    display: flex;
+    background-color: black;
+}
+
+
+header nav a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 900;
+    
+    padding-right: 30px;
+    transition: 0.7s;
+    color: white;
+   
+}
+
+.main:hover{
+    scale: 1.2;
+    color: blue;
+}
+header nav a:hover{
+    color: aqua;
+}
+
+
+.dropdown1 {
+    margin-left:20px ;
+    margin-right:20px ;
+    float: left;
+  overflow: hidden;
+}
+
+.dropdown2 {
+    margin-left:20px ;
+    margin-right:20px ;
+    float: left;
+  overflow: hidden;
+}
+.dropdown3 {
+    margin-left:20px ;
+    margin-right:20px ;
+    float: left;
+    overflow: hidden;
+  
+}
+
+
+.dropdown1 .project-dropdown1 {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    font-size: 1.2em;
+    background-color: inherit;
+    margin: 2px;
+    padding: 5px;
+    transition: 0.7s;
+  }
+  .dropdown2 .project-dropdown2 {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    font-size: 1.2em;
+    background-color: inherit;
+    margin: 2px;
+    padding: 5px;
+    transition: 0.7s;
+  }
+  .dropdown3 .project-dropdown3 {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    font-size: 1.2em;
+    background-color: inherit;
+    margin: 2px;
+    padding: 5px;
+    transition: 0.7s;
+  }
+
+  .project-dropdown1:hover {
+    background-color: rgb(101, 101, 101);
+  }
+  .project-dropdown2:hover {
+    background-color: rgb(101, 101, 101);
+  }
+  .project-dropdown3:hover {
+    background-color: rgb(101, 101, 101);
+  }
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #585858;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.7s;
+  }
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #585858;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.7s;
+  }
+  .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #585858;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.7s;
+  }
+  
+
+  .dropdown-content1 a {
+    float: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin: 10px;
+  }
+  .dropdown-content2 a {
+    float: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin: 10px;
+    
+  }
+  .dropdown-content3 a {
+    float: none;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin: 10px;
+    transition: 0.7s;
+  }
+  
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+  .dropdown2:hover .dropdown-content2  {
+    display: block;
+  }
+  .dropdown3:hover .dropdown-content3  {
+    display: block;
+  }
+  
+  
+  .dropdown-content1 a:hover {
+    background-color: #ddd;
+  }
+  .dropdown-content2 a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown-content3 a:hover {
+    background-color: #ddd;
+  }

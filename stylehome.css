@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins' , 'sans-serif';
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+
+}
+body{
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+.main{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 900;
+    color: white;
+    margin-right: 470px;
+    padding-left: 110px;
+    transition: 0.7s;
+}
+.header{
+    position: fixed;
+    align-items: center;
+    display: flex;
+    background-color: black;
+}
+
+
+header nav a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 900;
+    
+    padding-right: 30px;
+    transition: 0.7s;
+    color: white;
+   
+}
+
+.main:hover{
+    scale: 1.2;
+    color: blue;
+}
+header nav a:hover{
+    color: aqua;
+}
+
+
+.dropdown1 {
+    margin-left:20px ;
+    margin-right:20px ;
+    float: left;
+  overflow: hidden;
+}
+
+.dropdown2 {
+    margin-left:20px ;
+    margin-right:20px ;
+    float: left;
+  overflow: hidden;
+}
+.dropdown3 {
+    margin-left:20px ;
+    margin-right:20px ;
+    float: left;
+    overflow: hidden;
+  
+}
+
+
+.dropdown1 .project-dropdown1 {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    font-size: 1.2em;
+    background-color: inherit;
+    margin: 2px;
+    padding: 5px;
+    transition: 0.7s;
+  }
+  .dropdown2 .project-dropdown2 {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    font-size: 1.2em;
+    background-color: inherit;
+    margin: 2px;
+    padding: 5px;
+    transition: 0.7s;
+  }
+  .dropdown3 .project-dropdown3 {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    font-size: 1.2em;
+    background-color: inherit;
+    margin: 2px;
+    padding: 5px;
+    transition: 0.7s;
+  }
+
+  .project-dropdown1:hover {
+    background-color: rgb(101, 101, 101);
+  }
+  .project-dropdown2:hover {
+    background-color: rgb(101, 101, 101);
+  }
+  .project-dropdown3:hover {
+    background-color: rgb(101, 101, 101);
+  }
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #585858;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.7s;
+  }
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #585858;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.7s;
+  }
+  .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #585858;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.7s;
+  }
+  
+
+  .dropdown-content1 a {
+    float: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin: 10px;
+  }
+  .dropdown-content2 a {
+    float: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin: 10px;
+    
+  }
+  .dropdown-content3 a {
+    float: none;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin: 10px;
+    transition: 0.7s;
+  }
+  
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+  .dropdown2:hover .dropdown-content2  {
+    display: block;
+  }
+  .dropdown3:hover .dropdown-content3  {
+    display: block;
+  }
+  
+  
+  .dropdown-content1 a:hover {
+    background-color: #ddd;
+  }
+  .dropdown-content2 a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown-content3 a:hover {
+    background-color: #ddd;
+  }
+
+
+
+
+.section1{
+    
+    background-image: url('backgrnd.png');
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    
+}
+.welcome{
+    
+    padding: 20px;
+    color: white;
+
+font-size: 1.9em;
+font-weight: 1000;
+}
+.definition{
+    color: white;
+    padding-left: 30px;
+    
+}
+.declaration{
+    color: white;
+    
+    padding-left: 30px;
+    padding-bottom: 30px;
+
+}
+
+.button{
+    margin: 30px;
+    padding: 9px;
+    text-decoration: none;
+    background-color: rgb(53, 53, 222);
+    color: aliceblue;
+    border-radius: 17px;
+    transition: 0.7s;
+}
+
+.button:hover{
+
+    color: rgb(53, 53, 222);
+    background-color: aliceblue;
+}
+
+.section2{
+    padding-left: 40px;
+    background: linear-gradient(to bottom, rgb(7, 6, 6), rgb(161, 159, 159)) ;
+    height: 200vh;
+}
+.card{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(220, 226, 245);
+    justify-content: space-between;
+    display: inline-block;
+    border-radius: 17px;
+    font-size: 1.2em;
+    
+
+}
+.card a{
+  margin: 10px;
+  text-decoration: none;
+  padding: 7px;
+  background-color: #151d87;
+  color: white;
+  border-radius: 12px;
+}
+.card .spacer{
+
+  color: rgb(220, 226, 245);
+}
+.poster{
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(220, 226, 245);
+    justify-content: space-between;
+    display: inline-block;
+    border-radius: 17px;
+    font-size: 1.2em;
+    width: 500px;
+    height:unset;
+
+}
+
+.poster2{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(220, 226, 245);
+    justify-content: space-between;
+    display: inline-block;
+    border-radius: 17px;
+    font-size: 1.2em;
+    width: 500px;
+    height:unset;
+
+}
+
+.poster3{
+    width: 500px;
+    height:unset;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(220, 226, 245);
+    justify-content: space-between;
+    display: inline-block;
+    border-radius: 17px;
+    font-size: 1.2em;
+
+}
+
+.team{
+    margin: 30px;
+    padding: 9px;
+    text-decoration: none;
+    background-color: rgb(53, 53, 222);
+    color: aliceblue;
+    border-radius: 17px;
+    transition: 0.7s;
+}
+
+.join{margin: 30px;
+    padding: 9px;
+    text-decoration: none;
+    background-color: rgb(53, 53, 222);
+    color: aliceblue;
+    border-radius: 17px;
+    transition: 0.7s;}
+
+ .join:hover{
+
+    color: rgb(53, 53, 222);
+    background-color: aliceblue;
+}
+.team:hover{
+
+    color: rgb(53, 53, 222);
+    background-color: aliceblue;
+}
+
+.project{
+    margin: 30px;
+    padding: 9px;
+    text-decoration: none;
+    background-color: rgb(53, 53, 222);
+    color: aliceblue;
+    border-radius: 17px;
+    transition: 0.7s;
+}
+
+.project:hover{
+
+    color: rgb(53, 53, 222);
+    background-color: aliceblue;
+}
+
+.freelance{
+    margin: 30px;
+    padding: 9px;
+    text-decoration: none;
+    background-color: rgb(59, 222, 53);
+    color: rgb(0, 0, 0);
+    border-radius: 17px;
+    transition: 0.7s;
+}
+.freelance:hover{
+
+    color: rgb(59, 222, 53);
+    background-color: aliceblue;
+}
+
+.jobtext{
+    margin: 10px;
+    padding: 20px;
+    
+}
+.collabtext{
+    margin: 10px;
+    padding: 20px;
+}
+.teamtext{
+    margin: 10px;
+    padding: 20px;
+}
+
+
+
+
